@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Author: Ali El Cheikh Ali, 000760145 -->
+    <title>Sandy and Leslie's apartment</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="apartment_layout.css">
+    <link rel="stylesheet" type="text/css" media="screen and (max-width: 600px)" href="mobile.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <div class="title">
+        <header><strong>Sandy and Leslie's Apartment</strong></header>
+        <br>
+        <p>Click a room for a detailed view.</p>
+    </div>
+
+    <!-- image map -->
+    <div class="floorplan">
+        <img src="images/apartmentfloorplan.jpg" alt="Apartment Floor Plan" usemap="#floormap">
+
+        <map name="floormap">
+            <area shape="rect" coords="55, 10, 190, 160 " alt="Bedroom" href="bedroom.html">
+            <area shape="rect" coords="200, 10, 345, 160 " alt="Bedroom" href="bedroom.html">
+            <area shape="rect" coords="245, 235, 390, 395 " alt="Kitchen" href="kitchen.html">
+            <area shape="circle" coords="410, 135, 45" alt="Dining room" href="diningroom.html">
+            <area shape="poly" coords="474,170,402,206,424,394,546,393,524,176" alt="Living room"
+                href="livingroom.html">
+        </map>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul class="navbar">
+            <li><a href="apartment.html">Apartment</a></li>
+            <li><a href="bedroom.html">Bedroom 1</a></li>
+            <li><a href="bedroom.html">Bedroom 2</a></li>
+            <li><a href="diningroom.html">Dining Room</a></li>
+            <li><a href="kitchen.html">Kitchen</a></li>
+            <li><a href="livingroom.html">Living Room</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main -->
+    <div class="grid">
+        <section id="Survey">
+            <div class="survey">
+                <h2>Survey</h2>
+
+                <p>How did you find out about this apartment? Check any that apply:</p>
+                <input type="checkbox" name="websearch" value="websearch"> Web search
+                <input type="checkbox" name="friend" value="friend"> Friend
+                <input type="checkbox" name="newspaper" value="newspaper"> newspaper<br>
+                <input type="submit" value="Submit">
+                <input type="submit" value="Reset Form">
+            </div>
+        </section>
+
+        <section id="AptServ">
+            <div class="aptserve">
+                <h2>Apartment Services:</h2>
+
+                <table width="100%"> 
+                    <tr> 
+                        <th>Service</th> 
+                        <th>Day/Hours</th> 
+                    </tr> 
+                    <tr> 
+                        <td>Gym</td> 
+                        <td rowspan="2">Monday-Friday 6am - 10pm <br>Saturday 8am - 8pm <br>Sunday 8am - 5pm</td> 
+
+                    </tr> 
+                    <tr>
+                        <td>Pool</td>
+                        
+                    </tr>
+                    <tr> 
+                        <td>Laundry</td> 
+                        <td>24/7</td> 
+                    </tr> 
+                    <caption>Please do not allow people you do not know to use these facilities.</caption>
+                </table>
+
+
+            </div>
+        </section>
+
+        <section section="Location">
+            <div class="location">
+
+                <h2>Location</h2>
+                <img src="images/location.png" alt="location">
+
+            </div>
+        </section>
+
+        <section id="Welcome">
+            <div class="welcome">
+                <h2>Welcome</h2>
+
+                <audio controls>
+                    <source src="images/apartment.mp3" type="audio/mpeg">
+                </audio>
+                <p>Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the
+                    apartment building amenities are fantastic. We look forward to hearing from you!</p>
+            </div>
+        </section>
+
+        <section id="Space1">
+            <div class="space1">
+
+            </div>
+        </section>
+
+        <section id="Space2">
+            <div class="space2">
+
+            </div>
+        </section>
+
+    </div>
+
+    <section id="Gallery">
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="grid2">
+                <section id="image1">
+                    <div class="Image1">
+
+                        <h3>Balcony</h3>
+                        <img src="images/thumbnails/balcony_sm.jpg" alt="balcony">
+
+                    </div>
+                </section>
+
+                <section id="image2">
+                    <div class="Image1">
+
+                        <h3>Bathroom</h3>
+                        <img src="images/thumbnails/bathroom_sm.jpg" alt="bathroom">
+
+                    </div>
+                </section>
+
+                <section id="image3">
+                    <div class="Image1">
+
+                        <h3>Bedroom</h3>
+                        <img src="images/thumbnails/bedroom_sm.jpg" alt="Bedroom">
+
+                    </div>
+                </section>
+
+                <section id="image4">
+                    <div class="Image1">
+
+                        <h3>Dining Room</h3>
+                        <img src="images/thumbnails/diningroom_sm.jpg" alt="DiningRoom">
+
+                    </div>
+                </section>
+
+                <section id="image5">
+                    <div class="Image1">
+
+                        <h3>Kitchen</h3>
+                        <img src="images/thumbnails/kitchen_sm.jpg" alt="Kitchen">
+
+                    </div>
+
+                </section>
+
+                <section id="extra1">
+
+                </section>
+
+                <section id="image6">
+                    <div class="Image1">
+
+                        <h3>Living Room</h3>
+                        <img src="images/thumbnails/livingroom_sm.jpg" alt="LivingRoom">
+
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>For more information contact: <a href=mailto:>SandyAndLeslie@example.com</a></p>
+        <p>© Sandy and Leslie 2020</p>
+
+    </div>
+
+
+</body>
+
+</html>
