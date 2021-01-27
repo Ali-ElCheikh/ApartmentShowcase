@@ -1,4 +1,4 @@
 # Apartment-Showcase** Click on Apartment.html to begin
  Apartment floor plan which showcases the apartment, its services, and location.
 
-Click on Apartment.html to begin
+*Not completed. However, it does work other than the forms survey.
